@@ -3,12 +3,17 @@ let currentBeatmap;
 let catJAMEl = document.getElementById("catJAM");
 let catJAM = catJAMEl.getAnimations()[0];
 let ws;
+let running = false;
 
 const app = () => {
   ws = new WebSocket("ws://127.0.0.1:24050/websocket/v2");
 
   // connection failed retry
   ws.onerror = app;
+
+  ws.onopen = () => {
+    running = true;
+  };
 
   ws.onmessage = (event) => {
     const data = JSON.parse(event.data);
@@ -23,5 +28,8 @@ const app = () => {
 
 document.addEventListener("animationstart", () => {
   catJAM = catJAMEl.getAnimations()[0];
-  app();
+
+  if (!running) {
+    app();
+  }
 });
