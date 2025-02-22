@@ -8,7 +8,9 @@
 
 ## 已知問題
 
-# catJAM for tosu
+- 點頭無法對齊節奏 (但我不知道怎麼修)
+
+# catJAM for tosu (EN)
 
 A catJAM animation that adjusts its nodding speed according to the BPM, fun to watch.
 
