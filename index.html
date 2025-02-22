@@ -1,0 +1,209 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,maximum-scale=1"
+    />
+    <title>catJAM</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #0000;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Powered By gka 2.8.7 -->
+    <div class="gka-wrap">
+      <div id="catJAM"></div>
+    </div>
+    <script>
+      function preloadImage(names, cb, prefix) {
+        window.gkaCache = window.gkaCache || [];
+        var n = 0,
+          img,
+          imgs = {};
+        names.forEach(function (name) {
+          img = new Image();
+          window.gkaCache.push(img);
+          img.onload = (function (name, img) {
+            return function () {
+              imgs[name] = img;
+              ++n === names.length && cb && cb(imgs);
+            };
+          })(name, img);
+          img.src = (prefix || "") + name;
+        });
+      }
+
+      preloadImage(
+        [
+          "catJAM-0.png",
+          "catJAM-1.png",
+          "catJAM-2.png",
+          "catJAM-3.png",
+          "catJAM-4.png",
+          "catJAM-5.png",
+          "catJAM-6.png",
+          "catJAM-7.png",
+          "catJAM-8.png",
+          "catJAM-9.png",
+          "catJAM-10.png",
+          "catJAM-11.png",
+          "catJAM-12.png",
+          "catJAM-13.png",
+          "catJAM-14.png",
+          "catJAM-15.png",
+          "catJAM-16.png",
+          "catJAM-17.png",
+          "catJAM-18.png",
+          "catJAM-19.png",
+          "catJAM-20.png",
+          "catJAM-21.png",
+          "catJAM-22.png",
+          "catJAM-23.png",
+          "catJAM-24.png",
+          "catJAM-25.png",
+          "catJAM-26.png",
+          "catJAM-27.png",
+          "catJAM-28.png",
+          "catJAM-29.png",
+          "catJAM-30.png",
+          "catJAM-31.png",
+          "catJAM-32.png",
+          "catJAM-33.png",
+          "catJAM-34.png",
+          "catJAM-35.png",
+          "catJAM-36.png",
+          "catJAM-37.png",
+          "catJAM-38.png",
+          "catJAM-39.png",
+          "catJAM-40.png",
+          "catJAM-41.png",
+          "catJAM-42.png",
+          "catJAM-43.png",
+          "catJAM-44.png",
+          "catJAM-45.png",
+          "catJAM-46.png",
+          "catJAM-47.png",
+          "catJAM-48.png",
+          "catJAM-49.png",
+          "catJAM-50.png",
+          "catJAM-51.png",
+          "catJAM-52.png",
+          "catJAM-53.png",
+          "catJAM-54.png",
+          "catJAM-55.png",
+          "catJAM-56.png",
+          "catJAM-57.png",
+          "catJAM-58.png",
+          "catJAM-59.png",
+          "catJAM-60.png",
+          "catJAM-61.png",
+          "catJAM-62.png",
+          "catJAM-63.png",
+          "catJAM-64.png",
+          "catJAM-65.png",
+          "catJAM-66.png",
+          "catJAM-67.png",
+          "catJAM-68.png",
+          "catJAM-69.png",
+          "catJAM-70.png",
+          "catJAM-71.png",
+          "catJAM-72.png",
+          "catJAM-73.png",
+          "catJAM-74.png",
+          "catJAM-75.png",
+          "catJAM-76.png",
+          "catJAM-77.png",
+          "catJAM-78.png",
+          "catJAM-79.png",
+          "catJAM-80.png",
+          "catJAM-81.png",
+          "catJAM-82.png",
+          "catJAM-83.png",
+          "catJAM-84.png",
+          "catJAM-85.png",
+          "catJAM-86.png",
+          "catJAM-87.png",
+          "catJAM-88.png",
+          "catJAM-89.png",
+          "catJAM-90.png",
+          "catJAM-91.png",
+          "catJAM-92.png",
+          "catJAM-93.png",
+          "catJAM-94.png",
+          "catJAM-95.png",
+          "catJAM-96.png",
+          "catJAM-97.png",
+          "catJAM-98.png",
+          "catJAM-99.png",
+          "catJAM-100.png",
+          "catJAM-101.png",
+          "catJAM-102.png",
+          "catJAM-103.png",
+          "catJAM-104.png",
+          "catJAM-105.png",
+          "catJAM-106.png",
+          "catJAM-107.png",
+          "catJAM-108.png",
+          "catJAM-109.png",
+          "catJAM-110.png",
+          "catJAM-111.png",
+          "catJAM-112.png",
+          "catJAM-113.png",
+          "catJAM-114.png",
+          "catJAM-115.png",
+          "catJAM-116.png",
+          "catJAM-117.png",
+          "catJAM-118.png",
+          "catJAM-119.png",
+          "catJAM-120.png",
+          "catJAM-121.png",
+          "catJAM-122.png",
+          "catJAM-123.png",
+          "catJAM-124.png",
+          "catJAM-125.png",
+          "catJAM-126.png",
+          "catJAM-127.png",
+          "catJAM-128.png",
+          "catJAM-129.png",
+          "catJAM-130.png",
+          "catJAM-131.png",
+          "catJAM-132.png",
+          "catJAM-133.png",
+          "catJAM-134.png",
+          "catJAM-135.png",
+          "catJAM-136.png",
+          "catJAM-137.png",
+          "catJAM-138.png",
+          "catJAM-139.png",
+          "catJAM-140.png",
+          "catJAM-141.png",
+          "catJAM-142.png",
+          "catJAM-143.png",
+          "catJAM-144.png",
+          "catJAM-145.png",
+          "catJAM-146.png",
+          "catJAM-147.png",
+          "catJAM-148.png",
+          "catJAM-149.png",
+          "catJAM-150.png",
+          "catJAM-151.png",
+          "catJAM-152.png",
+          "catJAM-153.png",
+          "catJAM-154.png",
+          "catJAM-155.png",
+        ],
+        function () {
+          document.getElementById("catJAM").className += " animation";
+        },
+        "img/"
+      );
+    </script>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>

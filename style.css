@@ -1,0 +1,662 @@
+#ct {
+    position: fixed;
+    top: 90px;
+    z-index: 9999;
+    color: aliceblue;
+}
+
+#bpm {
+    position: fixed;
+    top: 75px;
+    z-index: 9999;
+    color: aliceblue;
+}
+
+.gka-wrap {
+    width: 128px;
+    height: 128px;
+}
+
+.animation {
+    width: 128px;
+    height: 128px;
+    background-image: url("./img/catJAM-0.png");
+    background-size: 128px 128px;
+    background-repeat: no-repeat;
+    animation-name: keyframes-R;
+    animation-duration: 6.24s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-R {
+    0% {
+        width: 128px;
+        height: 128px;
+        background-image: url("./img/catJAM-0.png");
+        background-size: 128px 128px;
+    }
+
+    0.64% {
+        background-image: url("./img/catJAM-1.png");
+    }
+
+    1.28% {
+        background-image: url("./img/catJAM-2.png");
+    }
+
+    1.92% {
+        background-image: url("./img/catJAM-3.png");
+    }
+
+    2.56% {
+        background-image: url("./img/catJAM-4.png");
+    }
+
+    3.21% {
+        background-image: url("./img/catJAM-5.png");
+    }
+
+    3.85% {
+        background-image: url("./img/catJAM-6.png");
+    }
+
+    4.49% {
+        background-image: url("./img/catJAM-7.png");
+    }
+
+    5.13% {
+        background-image: url("./img/catJAM-8.png");
+    }
+
+    5.77% {
+        background-image: url("./img/catJAM-9.png");
+    }
+
+    6.41% {
+        background-image: url("./img/catJAM-10.png");
+    }
+
+    7.05% {
+        background-image: url("./img/catJAM-11.png");
+    }
+
+    7.69% {
+        background-image: url("./img/catJAM-12.png");
+    }
+
+    8.33% {
+        background-image: url("./img/catJAM-13.png");
+    }
+
+    8.97% {
+        background-image: url("./img/catJAM-14.png");
+    }
+
+    9.62% {
+        background-image: url("./img/catJAM-15.png");
+    }
+
+    10.26% {
+        background-image: url("./img/catJAM-16.png");
+    }
+
+    10.90% {
+        background-image: url("./img/catJAM-17.png");
+    }
+
+    11.54% {
+        background-image: url("./img/catJAM-18.png");
+    }
+
+    12.18% {
+        background-image: url("./img/catJAM-19.png");
+    }
+
+    12.82% {
+        background-image: url("./img/catJAM-20.png");
+    }
+
+    13.46% {
+        background-image: url("./img/catJAM-21.png");
+    }
+
+    14.10% {
+        background-image: url("./img/catJAM-22.png");
+    }
+
+    14.74% {
+        background-image: url("./img/catJAM-23.png");
+    }
+
+    15.38% {
+        background-image: url("./img/catJAM-24.png");
+    }
+
+    16.03% {
+        background-image: url("./img/catJAM-25.png");
+    }
+
+    16.67% {
+        background-image: url("./img/catJAM-26.png");
+    }
+
+    17.31% {
+        background-image: url("./img/catJAM-27.png");
+    }
+
+    17.95% {
+        background-image: url("./img/catJAM-28.png");
+    }
+
+    18.59% {
+        background-image: url("./img/catJAM-29.png");
+    }
+
+    19.23% {
+        background-image: url("./img/catJAM-30.png");
+    }
+
+    19.87% {
+        background-image: url("./img/catJAM-31.png");
+    }
+
+    20.51% {
+        background-image: url("./img/catJAM-32.png");
+    }
+
+    21.15% {
+        background-image: url("./img/catJAM-33.png");
+    }
+
+    21.79% {
+        background-image: url("./img/catJAM-34.png");
+    }
+
+    22.44% {
+        background-image: url("./img/catJAM-35.png");
+    }
+
+    23.08% {
+        background-image: url("./img/catJAM-36.png");
+    }
+
+    23.72% {
+        background-image: url("./img/catJAM-37.png");
+    }
+
+    24.36% {
+        background-image: url("./img/catJAM-38.png");
+    }
+
+    25.00% {
+        background-image: url("./img/catJAM-39.png");
+    }
+
+    25.64% {
+        background-image: url("./img/catJAM-40.png");
+    }
+
+    26.28% {
+        background-image: url("./img/catJAM-41.png");
+    }
+
+    26.92% {
+        background-image: url("./img/catJAM-42.png");
+    }
+
+    27.56% {
+        background-image: url("./img/catJAM-43.png");
+    }
+
+    28.21% {
+        background-image: url("./img/catJAM-44.png");
+    }
+
+    28.85% {
+        background-image: url("./img/catJAM-45.png");
+    }
+
+    29.49% {
+        background-image: url("./img/catJAM-46.png");
+    }
+
+    30.13% {
+        background-image: url("./img/catJAM-47.png");
+    }
+
+    30.77% {
+        background-image: url("./img/catJAM-48.png");
+    }
+
+    31.41% {
+        background-image: url("./img/catJAM-49.png");
+    }
+
+    32.05% {
+        background-image: url("./img/catJAM-50.png");
+    }
+
+    32.69% {
+        background-image: url("./img/catJAM-51.png");
+    }
+
+    33.33% {
+        background-image: url("./img/catJAM-52.png");
+    }
+
+    33.97% {
+        background-image: url("./img/catJAM-53.png");
+    }
+
+    34.62% {
+        background-image: url("./img/catJAM-54.png");
+    }
+
+    35.26% {
+        background-image: url("./img/catJAM-55.png");
+    }
+
+    35.90% {
+        background-image: url("./img/catJAM-56.png");
+    }
+
+    36.54% {
+        background-image: url("./img/catJAM-57.png");
+    }
+
+    37.18% {
+        background-image: url("./img/catJAM-58.png");
+    }
+
+    37.82% {
+        background-image: url("./img/catJAM-59.png");
+    }
+
+    38.46% {
+        background-image: url("./img/catJAM-60.png");
+    }
+
+    39.10% {
+        background-image: url("./img/catJAM-61.png");
+    }
+
+    39.74% {
+        background-image: url("./img/catJAM-62.png");
+    }
+
+    40.38% {
+        background-image: url("./img/catJAM-63.png");
+    }
+
+    41.03% {
+        background-image: url("./img/catJAM-64.png");
+    }
+
+    41.67% {
+        background-image: url("./img/catJAM-65.png");
+    }
+
+    42.31% {
+        background-image: url("./img/catJAM-66.png");
+    }
+
+    42.95% {
+        background-image: url("./img/catJAM-67.png");
+    }
+
+    43.59% {
+        background-image: url("./img/catJAM-68.png");
+    }
+
+    44.23% {
+        background-image: url("./img/catJAM-69.png");
+    }
+
+    44.87% {
+        background-image: url("./img/catJAM-70.png");
+    }
+
+    45.51% {
+        background-image: url("./img/catJAM-71.png");
+    }
+
+    46.15% {
+        background-image: url("./img/catJAM-72.png");
+    }
+
+    46.79% {
+        background-image: url("./img/catJAM-73.png");
+    }
+
+    47.44% {
+        background-image: url("./img/catJAM-74.png");
+    }
+
+    48.08% {
+        background-image: url("./img/catJAM-75.png");
+    }
+
+    48.72% {
+        background-image: url("./img/catJAM-76.png");
+    }
+
+    49.36% {
+        background-image: url("./img/catJAM-77.png");
+    }
+
+    50.00% {
+        background-image: url("./img/catJAM-78.png");
+    }
+
+    50.64% {
+        background-image: url("./img/catJAM-79.png");
+    }
+
+    51.28% {
+        background-image: url("./img/catJAM-80.png");
+    }
+
+    51.92% {
+        background-image: url("./img/catJAM-81.png");
+    }
+
+    52.56% {
+        background-image: url("./img/catJAM-82.png");
+    }
+
+    53.21% {
+        background-image: url("./img/catJAM-83.png");
+    }
+
+    53.85% {
+        background-image: url("./img/catJAM-84.png");
+    }
+
+    54.49% {
+        background-image: url("./img/catJAM-85.png");
+    }
+
+    55.13% {
+        background-image: url("./img/catJAM-86.png");
+    }
+
+    55.77% {
+        background-image: url("./img/catJAM-87.png");
+    }
+
+    56.41% {
+        background-image: url("./img/catJAM-88.png");
+    }
+
+    57.05% {
+        background-image: url("./img/catJAM-89.png");
+    }
+
+    57.69% {
+        background-image: url("./img/catJAM-90.png");
+    }
+
+    58.33% {
+        background-image: url("./img/catJAM-91.png");
+    }
+
+    58.97% {
+        background-image: url("./img/catJAM-92.png");
+    }
+
+    59.62% {
+        background-image: url("./img/catJAM-93.png");
+    }
+
+    60.26% {
+        background-image: url("./img/catJAM-94.png");
+    }
+
+    60.90% {
+        background-image: url("./img/catJAM-95.png");
+    }
+
+    61.54% {
+        background-image: url("./img/catJAM-96.png");
+    }
+
+    62.18% {
+        background-image: url("./img/catJAM-97.png");
+    }
+
+    62.82% {
+        background-image: url("./img/catJAM-98.png");
+    }
+
+    63.46% {
+        background-image: url("./img/catJAM-99.png");
+    }
+
+    64.10% {
+        background-image: url("./img/catJAM-100.png");
+    }
+
+    64.74% {
+        background-image: url("./img/catJAM-101.png");
+    }
+
+    65.38% {
+        background-image: url("./img/catJAM-102.png");
+    }
+
+    66.03% {
+        background-image: url("./img/catJAM-103.png");
+    }
+
+    66.67% {
+        background-image: url("./img/catJAM-104.png");
+    }
+
+    67.31% {
+        background-image: url("./img/catJAM-105.png");
+    }
+
+    67.95% {
+        background-image: url("./img/catJAM-106.png");
+    }
+
+    68.59% {
+        background-image: url("./img/catJAM-107.png");
+    }
+
+    69.23% {
+        background-image: url("./img/catJAM-108.png");
+    }
+
+    69.87% {
+        background-image: url("./img/catJAM-109.png");
+    }
+
+    70.51% {
+        background-image: url("./img/catJAM-110.png");
+    }
+
+    71.15% {
+        background-image: url("./img/catJAM-111.png");
+    }
+
+    71.79% {
+        background-image: url("./img/catJAM-112.png");
+    }
+
+    72.44% {
+        background-image: url("./img/catJAM-113.png");
+    }
+
+    73.08% {
+        background-image: url("./img/catJAM-114.png");
+    }
+
+    73.72% {
+        background-image: url("./img/catJAM-115.png");
+    }
+
+    74.36% {
+        background-image: url("./img/catJAM-116.png");
+    }
+
+    75.00% {
+        background-image: url("./img/catJAM-117.png");
+    }
+
+    75.64% {
+        background-image: url("./img/catJAM-118.png");
+    }
+
+    76.28% {
+        background-image: url("./img/catJAM-119.png");
+    }
+
+    76.92% {
+        background-image: url("./img/catJAM-120.png");
+    }
+
+    77.56% {
+        background-image: url("./img/catJAM-121.png");
+    }
+
+    78.21% {
+        background-image: url("./img/catJAM-122.png");
+    }
+
+    78.85% {
+        background-image: url("./img/catJAM-123.png");
+    }
+
+    79.49% {
+        background-image: url("./img/catJAM-124.png");
+    }
+
+    80.13% {
+        background-image: url("./img/catJAM-125.png");
+    }
+
+    80.77% {
+        background-image: url("./img/catJAM-126.png");
+    }
+
+    81.41% {
+        background-image: url("./img/catJAM-127.png");
+    }
+
+    82.05% {
+        background-image: url("./img/catJAM-128.png");
+    }
+
+    82.69% {
+        background-image: url("./img/catJAM-129.png");
+    }
+
+    83.33% {
+        background-image: url("./img/catJAM-130.png");
+    }
+
+    83.97% {
+        background-image: url("./img/catJAM-131.png");
+    }
+
+    84.62% {
+        background-image: url("./img/catJAM-132.png");
+    }
+
+    85.26% {
+        background-image: url("./img/catJAM-133.png");
+    }
+
+    85.90% {
+        background-image: url("./img/catJAM-134.png");
+    }
+
+    86.54% {
+        background-image: url("./img/catJAM-135.png");
+    }
+
+    87.18% {
+        background-image: url("./img/catJAM-136.png");
+    }
+
+    87.82% {
+        background-image: url("./img/catJAM-137.png");
+    }
+
+    88.46% {
+        background-image: url("./img/catJAM-138.png");
+    }
+
+    89.10% {
+        background-image: url("./img/catJAM-139.png");
+    }
+
+    89.74% {
+        background-image: url("./img/catJAM-140.png");
+    }
+
+    90.38% {
+        background-image: url("./img/catJAM-141.png");
+    }
+
+    91.03% {
+        background-image: url("./img/catJAM-142.png");
+    }
+
+    91.67% {
+        background-image: url("./img/catJAM-143.png");
+    }
+
+    92.31% {
+        background-image: url("./img/catJAM-144.png");
+    }
+
+    92.95% {
+        background-image: url("./img/catJAM-145.png");
+    }
+
+    93.59% {
+        background-image: url("./img/catJAM-146.png");
+    }
+
+    94.23% {
+        background-image: url("./img/catJAM-147.png");
+    }
+
+    94.87% {
+        background-image: url("./img/catJAM-148.png");
+    }
+
+    95.51% {
+        background-image: url("./img/catJAM-149.png");
+    }
+
+    96.15% {
+        background-image: url("./img/catJAM-150.png");
+    }
+
+    96.79% {
+        background-image: url("./img/catJAM-151.png");
+    }
+
+    97.44% {
+        background-image: url("./img/catJAM-152.png");
+    }
+
+    98.08% {
+        background-image: url("./img/catJAM-153.png");
+    }
+
+    98.72% {
+        background-image: url("./img/catJAM-154.png");
+    }
+
+    99.36%,
+    100% {
+        background-image: url("./img/catJAM-155.png");
+    }
+}
